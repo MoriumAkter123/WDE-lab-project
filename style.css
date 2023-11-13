@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: url(pic/bg.jpg);
+  background-size: cover;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+  justify-content: space-between;
+  height: 76px;
+  background-color: gray;
+  background: #fff;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.menu ul{
+  display: flex;
+  align-items: center;
+}
+
+.menu ul li {
+  list-style: none;
+  padding: 10px 16px;
+}
+
+.menu ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #cb2727;
+  margin-top: -3%;
+  transition: .4s ease;
+}
+
+.menu ul li:hover a {
+    color: #000;
+}
+
+.info h1 {
+  font-size: 65px;
+  color: #000;
+}
+
+.info h3 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.info span {
+  color: #fff;
+}
+
+.info-link {
+  text-decoration: none;
+  color: #ff0000;
+  background-color: #fff;
+  margin: 26px 0;
+  padding: 10px 18px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: .4s ease;
+}
+
+/*.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc( 100% - 100px );
+  padding: 50px;
+}*/
+
+.icons a {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all  .4s ease;
+}
+
+.icons a i {
+    color: #000;
+    font-size: 20px;
+}
+
+.icons a:hover {
+    background: #000;
+}
+
+.icons a:hover i {
+    color: #fff;
+}
+
+.content-wrapper{
+  background-image: url('images/pic girl.jpg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 100px 0; */
+  background-attachment: fixed;
+  background-position-y: top;
+  height: calc( 100vh - 76px );
+}
+
+.common-style {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    max-width: 600px;
+    transform: translateY(-50%);
+    padding: 30px;
+    background-image: linear-gradient(90deg, #cb2727 0%, #983b3b00 100%);
+}
+
+.common-style p{
+  /* padding-top: 300px; */
+  /* padding-left: 500px; */
+  color: rgb(11, 16, 159);
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
